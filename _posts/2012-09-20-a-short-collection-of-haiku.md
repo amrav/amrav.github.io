@@ -14,5 +14,5 @@ paper skin
 
 ruby blossoms  
 in winter  
-are falling, falling  
+are falling, falling
 
