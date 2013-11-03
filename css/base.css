@@ -1,0 +1,145 @@
+
+html, body, div {
+    background: #F8FAF0;
+    color: #221000;
+}
+
+div.container {
+    margin-top: 2em;
+}
+
+#header {
+    border-bottom: 1px solid #DEDEDE;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #492600;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #354498;
+}
+
+navi > a {
+    color: #492600;
+}
+
+a:hover {
+
+    color: #269A52;
+    color: #354498;
+    color: #4F5B98;
+    color: #459A65;
+/*    color: #A43E29; */
+}
+
+header a{
+    font-size:1em;
+    color: #492600;
+    margin-bottom: 0.5em;
+    float:left;
+    width: 150px;
+    padding-right: 0px;
+    margin-right:140px;
+    padding-left: 2px;
+    margin-left: 2px;
+}
+
+header a:hover {
+    color: #459A65;
+    text-decoration: none;
+/*    color: #A4594A; */
+    
+}
+
+
+
+navi {
+    font-size:20px;
+    display:block;
+    padding-right: 2px;
+    margin-right: 2px;
+    width: 250px;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: right;
+}
+navi a {
+    padding: 0 2px;
+    margin: 0 2px;
+}
+
+.tilde-header {
+    text-align:center; 
+    font-size:80px;
+}
+
+div.row {
+    margin-bottom: 0px;
+}
+
+div.content > p {
+    margin-bottom: 1.5em;
+}
+    
+body {
+    font-family: GoudyBookletter1911;
+}
+
+body p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+body blockquote {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1, h2 {
+    fomt-family: "Sorts Mill Goudy";
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+small {
+    font-size: 0.6em;
+    color: #A5A2A2;
+    margin-left: 20px;
+}
+
+small.caption {
+    font-size:15px;
+    color: #A5A2A2;
+}
+
+div.listing {
+    margin-top:3em;
+    line-height: 6px;
+
+}
+
+div.listing h2 a {
+    color: #A43E29;
+    margin-right: 20px;
+}
+
+div.listing a:hover {
+    text-decoration: none;
+    color: #459A65;
+}
+
+div.listing h2 small {
+    text-align: right;
+    margin-right: 0px;
+}
+
+div.writing {
+    margin-top: 80px;
+}

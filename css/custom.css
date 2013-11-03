@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Goudy Bookletter';
+    src: url("/fonts/GoudyBookletter1911.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Sorts Mill Goudy';
+    src: url("/fonts/OFLGoudyStMTT.ttf") format("truetype");
+}
+
+.container {
+}
+
+#header {
+    margin-top: 7em;
+    text-align:center;
+    margin-bottom: 5em;
+}
+
+#header #home {
+    font-size: 6em;
+    margin:0px;
+    margin-right:1em;
+    line-height: 0px;
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+}
+
+#header-nav #home a{
+    color: black;
+}
+
+#header-nav #home a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+ul#header-nav{
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#prompt {
+    float:left;
+    height: auto;
+    display: inline;
+    font-family: Inconsolata, monospace;
+    font-size: x-large;
+}
+
+#header-nav li {
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+//    text-transform:uppercase;
+    font-family: Inconsolata, serif;
+    font-size: x-large;
+}
+
+#header-nav a {
+    color: rgb(100, 100, 100);
+}
+
+#header-nav a.active {
+    color: black;
+}
+
+#header-nav a:hover {
+    color: red;
+    text-decoration:none;
+}
+
+#home {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15em;
+}
+
+ul#posts {
+    list-style-type:none;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
+
+ul#posts li {
+    width: auto;
+    font-size: large;
+    font-family: Cabin, sans-serif;
+    padding-top: 1em;
+    padding-top: 1em;    
+}
+
+ul#posts li a {
+    color: rgb(75, 75, 75);
+    display:block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    font-size: 1.2em;
+}
+
+ul#posts li a:hover {
+    color: red;
+}
+
+#posts span {
+    color: rgb(150, 150, 150);
+    font-size: small;
+    display: block;
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+#post h1 {
+    font-family: 'Goudy Bookletter', sans-serif;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#post {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 10em;
+}
+
+#content {
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+
+#post .meta {
+    font-size: small;
+    color: gray;
+}
+
