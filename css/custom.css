@@ -1,22 +1,7 @@
-@import url('http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo|Anton');
-
-@font-face {
-    font-family: 'Goudy Bookletter';
-    src: url("/fonts/GoudyBookletter1911.otf") format("opentype");
-}
-
-@font-face {
-    font-family: 'Sorts Mill Goudy';
-    src: url("/fonts/OFLGoudyStMTT.ttf") format("truetype");
-}
-
 body {
-    //    background-color:black;
-    background-color:lightyellow;    
 }
 
 .container {
-
 }
 
 #header {
@@ -59,8 +44,6 @@ ul#header-nav{
     display: inline;
     padding: 10px;
     margin: 0px;
-//    text-transform:uppercase;
-    font-family: 'Swanky and Moo Moo', Inconsolata, sans-serif;
     font-size: xx-large;
 }
 
@@ -93,7 +76,6 @@ ul#posts {
 
 ul#posts li {
     font-size: large;
-    font-family: Cabin, sans-serif;
     padding-top: 1em;
     padding-top: 1em;
 }
@@ -103,7 +85,6 @@ ul#posts li a {
     display:block;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-family: "Anton", sans-serif;
     font-size: 1.5em;
     display: inline-block;
 }
@@ -119,24 +100,22 @@ ul#posts li a:hover {
     display: block;
     margin-top: 0px;
     padding-top:0px;
-    font-family: Helvetica Neue, "Swanky and Moo Moo";
+    font-family: Helvetica Neue, sans-serif;
 }
 
 #post h1 {
-    font-family: 'Anton', sans-serif;
     margin-bottom: 2em;
     text-align: center;
 }
 
 #post {
+    margin-bottom: 15em;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 15em;
 }
 
 #content {
-    font-family: 'Sorts Mill Goudy', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: justify;
 }
 
@@ -144,4 +123,24 @@ ul#posts li a:hover {
     font-size: small;
     color: gray;
 }
+
+blockquote {
+    border-left-color: rgb(75,75,75);
+    border-left-width: 0.15em;
+}
+
+blockquote p {
+    font-size: 1em;
+    color: rgb(75,75,75);
+}
+
+#photos {
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+#photos object {
+    margin: 2em;
+}
+
 

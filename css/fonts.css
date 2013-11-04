@@ -1,0 +1,17 @@
+@import url('http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo|Anton|Noticia+Text');
+
+#header-nav {
+    font-family:'Swanky and Moo Moo', cursive;
+}
+
+ul#posts a {
+    font-family: 'Anton', sans-serif;
+}
+
+#post h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+content {
+    font-family: 'Noticia Text', sans-serif;
+}
