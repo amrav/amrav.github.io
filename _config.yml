@@ -2,3 +2,4 @@ name: Amrav's Blog
 markdown: redcarpet
 pygments: true
 exclude: [scripts]
+permalink: pretty
