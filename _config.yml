@@ -1,5 +1,5 @@
 name: Amrav's Blog
 markdown: redcarpet
 pygments: true
-exclude: [scripts]
+exclude: [scripts 404.html]
 permalink: pretty
