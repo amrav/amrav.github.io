@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 exclude: [scripts 404.html]
 permalink: pretty
+url: http://www.amrav.net
