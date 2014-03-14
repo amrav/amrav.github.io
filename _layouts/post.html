@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+<div id="fb-root"></div>
 <div id="post">
   <h1>{{ page.title }}</h1>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+  <div>
+  <span class="meta">{{ page.date | date_to_string }}</span>
+  <ul class="fb-like">
+    <li><iframe src="//www.facebook.com/plugins/like.php?href={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px; width: 90px;" allowTransparency="true"></iframe></li>
+  </ul>
+  </div>
   <div id="content">
     {{ content }}
   </div>
