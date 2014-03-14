@@ -114,8 +114,13 @@ ul#posts li a:hover {
 }
 
 #content {
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-align: justify;
+}
+
+#content p {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #post .meta {
