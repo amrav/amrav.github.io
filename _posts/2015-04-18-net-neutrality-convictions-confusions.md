@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Net Neutrality - Convictions and Confusions
+title: "Net Neutrality: Convictions and Confusions"
 ---
 A poor and highly vocal debate is happening over net neutrality in India. After many discussions and much confusion, here's what I think.
 
@@ -17,11 +17,11 @@ Historically, this has meant a lot to users of the Internet. People write websit
 
 Now, it is true that people have different capacities to build cool websites. There is also some correlation between the amount of money you have and how easy it is for you to become popular. But notice that, traditionally, you still had to spend that extra money making your website *cooler* for it to become more popular. This is true even if you were just giving that money away on your website, say in the form of discount coupons for something. Overall, the Internet became more useful.
 
-Imagine that the internet had been *structurally unequal*. The way the Internet itself behaved meant that you found it easier to go to some websites than others. Then poor people with cool websites who couldn't pay to gain the kind of structural advantages that rich people could would probably have a harder time getting there websites famous. Some of those poor people would never make it to stardom, and give up. Overall, there might still be really cool websites made by rich people, but it wouldn't be the best Internet we could have had. There is some loss in utility.
+Imagine that the internet had been *structurally unequal*. The way the Internet itself behaved meant that you found it easier to go to some websites than others. Then poor people with cool websites who couldn't pay to gain the kind of structural advantages that rich people could would probably have a harder time getting their websites famous. Some of those poor people would never make it to stardom, and give up. Overall, there might still be really cool websites made by rich people, but it wouldn't be the best Internet we could have had. There is some loss in utility.
 
 I like the idea that a small startup that can build a search engine that performs better than Google has no other barriers to it becoming more popular than Google. And by extension, for any other website. However, I don't think this equality is absolute. For example, if the only way poor people can have access to free Internet education is through Wikipedia instead of Coursera, then I am open to the idea that access to only Wikipedia might be better than no access to either.
 
-From now on, I'll assume that we want to preserve this opportunity giving nature of the Internet as far as possible. People with less money who have brilliant ideas should be empowered by the Internet. But also, we want to ensure that the Internet empowers poor[^0] people. These are the two big wins of the Internet. Our goal is to find a reasonable way to achieve both. If you don't agree with this, than you will find many of my arguments strange.
+From now on, I'll assume that we want to preserve this opportunity-giving nature of the Internet as far as possible. People with less money who have brilliant ideas should be empowered by the Internet. But also, we want to ensure that the Internet empowers poor[^0] people. These are the two big wins of the Internet. Our goal is to find a reasonable way to achieve both. If you don't agree with this, then you will find many of my arguments strange.
 
 I will use the abbreviations PPwBI (Poor[^0] People with Brilliant Ideas) and BIfPP (Brilliant Ideas for Poor People). The Internet is the biggest enabler of both.
 
@@ -41,13 +41,13 @@ It's still an important question because we don't want to discourage PPwBI more 
 
 > Free Facebook + Gmail + Whatsapp + Google! Hard to argue against that.
 
-Yes, it is. But I'm not going to argue against it.
+Yes, it is. I'm not going to argue against it.
 
-What I'm going to argue against instead is that consumers should decide which websites they access for free.
+What I'm going to argue for is that consumers should decide which websites they access for free.
 
 Fundamentally, nobody can stop anyone from giving away stuff for free. If Google wanted, they could always pay you to search, covering your Internet costs. If regulators outlawed that, Google would find another way to pay you back. Maybe by promising that ad revenues would go towards creating a driverless car and open sourcing that technology. I think this is okay. Even a Good Thing.
 
-My problem is when I don't get to choose which sites to access for free. How can I possibly choose this? Say website X wants to give everybody free access to it. But website X offers a service, like VoiP, that competes with Airtel's telephony service. So Airtel refuses to let it subsidise traffic.
+My problem is when I don't get to choose which sites to access for free. How can I possibly choose this? Say website X wants to give everybody free access to it. But website X offers a service, like VoIP, that competes with Airtel's telephony service. So Airtel refuses to let it subsidise traffic.
 
 Here, we see the problem. Internet Service Providers (ISPs) can act as kingmakers in the highly free and open market that is the Internet. This is different from *consumers choosing to access a service more because it is free*, it is *ISPs allowing free access to services that tie up with it*. When these goals align, as they do in the case of the question above, there doesn't seem to be any problem. If ISPs *had to* provide subsidised access to any website that could pay for it, I would have no problem with that. I do have a problem with ISPs deciding which websites become free - because the moment you allow that, you place the fate of PPwBI in the hands of ISPs.
 
@@ -84,7 +84,7 @@ Maybe you have a problem with the directness of the whole thing - throwing money
 
 This is also true. But unless you can show why a consumer who is unhappy with this arrangement can't switch to a competitor, I'm Fine With That<sup>TM</sup>. Sufficient evidence for this would be, for example, showing that one company has a monopoly, and that it is reasonably impossible for anyone to compete, because of the kind of money that it can throw at the competition. But if this were true, it would probably manifest itself even without allowing websites to pay for subsidised access. There are so many other ways money can buy you users. Also, there are antitrust laws for this kind of stuff. I'm not familiar with the subject, but surely this kind of problem is not unique to Internet companies.
 
-Like I've argued previously, rich people will always have an advantage. In this case, I think the advantage of paying for free website access is not unique or threatening enough to PPwBB to regulate away. It can also provide a huge benefit to BIfPP. Other advantages, like a monopoly, or a privileged position of kingmaker as an ISP, *are a problem*, and need to be regulated away.
+Like I've argued previously, rich people will always have an advantage. In this case, I think the advantage of paying for free website access is not unique or threatening enough to PPwBI to regulate away. It can also provide a huge benefit to BIfPP. Other advantages, like a monopoly, or a privileged position of kingmaker as an ISP, *are a problem*, and need to be regulated away.
 
 
 In summary, this debate needs more evidence to be resolved. I don't know whether PPwBI will face crushing defeat because of not being able to pay for free access to their websites. (I think that's very unlikely). I also don't know whether Internet costs, and not better Internet penetration or something else, is the real problem for BIfPP. But one thing is clear to me - ISPs shouldn't have a say about which websites you access.
