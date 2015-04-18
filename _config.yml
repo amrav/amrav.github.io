@@ -1,6 +1,6 @@
 name: Amrav's Blog
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: pygments
 exclude: [scripts 404.html]
 permalink: pretty
 url: http://www.amrav.net

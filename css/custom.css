@@ -114,7 +114,7 @@ ul#posts li a:hover {
 }
 
 #content {
-    font-size: 1.2em;
+    font-size: 1.23em;
     text-align: justify;
     margin-bottom: 8em;
 }
@@ -164,4 +164,8 @@ blockquote p {
 .fb-like {
     float: right;
     display: inline-block;
+}
+
+.footnotes {
+    font-size: 0.8em;
 }
