@@ -1,5 +1,7 @@
 name: Amrav's Blog
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: pygments
 exclude: [scripts 404.html]
 permalink: pretty

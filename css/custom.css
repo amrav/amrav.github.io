@@ -169,3 +169,7 @@ blockquote p {
 .footnotes {
     font-size: 0.8em;
 }
+
+.svg-full {
+    max-width: 100%
+}
