@@ -171,5 +171,9 @@ blockquote p {
 }
 
 .svg-full {
-    max-width: 100%
+    max-width: 100%;
+}
+
+.img-full {
+    max-width: 100%;
 }
