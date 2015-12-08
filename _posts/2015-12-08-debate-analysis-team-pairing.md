@@ -21,13 +21,13 @@ This is a rough measure of how displaced the actual rankings are, compared to th
 
 I plotted rank distance vs number of rounds by simulating tournaments for a variety of bracketing algorithms. Since any one particular tournament will have peculiarities linked to the sampling of teams and their performances, I ran each algorithm's simulation over 200 tournaments and took the RMS values. Here's a pretty graph.
 
-![image](/assets/svg/rank_dist_v_rounds_10.svg){: .img-full}
+![image](/assets/svg/rank_dist_v_rounds_10.svg){: .svg-full}
 
 The lighter lines in each algorithm represent pull-down, and the darker lines are pull-up. It seems like pull-down is almost always a bad choice. \\(\operatorname{RANDOM-BRACKET}\\) pairs teams randomly within the same bracket. We also plot \\(\operatorname{RANDOM}\\) pairing, which just pairs teams randomly irrespective of brackets, as a benchmark.
 
 Here's another graph, this time with more rounds.
 
-![image](/assets/svg/rank_dist_v_rounds_50.svg){: .img-full}
+![image](/assets/svg/rank_dist_v_rounds_50.svg){: .svg-full}
 
 Interestingly, \\(\operatorname{RANDOM}\\) converges faster than any other method over a large number of rounds. This is probably because teams get "stuck" within a few brackets, and then are unable to leave that local optimum, and thus unable to settle into the optimum ranking. Of course, a 50 round tournament is just fantasy. More important is the fact that \\(\operatorname{FOLD}\\) converges fastest in the first 5 rounds, followed by \\(\operatorname{MID-SLIDE}\\).
 
