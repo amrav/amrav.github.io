@@ -3,7 +3,7 @@ layout: post
 title: An analysis of PD team pairing algorithms
 ---
 
-This is a short analysis of a few in-bracket pairing algorithms used in PDs. I've made assumptions liberally to simplify the process. Some familiarity with basic statistics and PDs is required.
+This is a short analysis of a few in-bracket pairing algorithms used in Parliamentary Debates (PDs). I've made assumptions liberally to simplify the process. Some familiarity with basic statistics and PDs is required.
 
 Let the set of teams be \\(T\\). We assume these teams have a "true" or "mean" skill represented by skill vector \\(S\\), where each team \\(T_i\\) is assigned a skill \\(S_i\\) sampled from \\(\mathcal{N}(0,1)\\). A team's performance is modeled as a random variable \\(P_i \sim \mathcal{N}(S_i,0.5)\\). \\(T_i\\) beats \\(T_j\\) if \\(P_i > P_j\\), and the margin of victory is \\(P_i - P_j\\).
 
@@ -23,15 +23,15 @@ I plotted rank distance vs number of rounds by simulating tournaments for a vari
 
 ![image](/assets/svg/rank_dist_v_rounds_10.svg){: .svg-full}
 
-The lighter lines in each algorithm represent pull-down, and the darker lines are pull-up. It seems like pull-down is almost always a bad choice. \\(\operatorname{RANDOM-BRACKET}\\) pairs teams randomly within the same bracket. We also plot \\(\operatorname{RANDOM}\\) pairing, which just pairs teams randomly irrespective of brackets, as a benchmark.
+The lighter lines in each algorithm represent pull-down, and the darker lines are pull-up. It seems like pull-down always diverges from pull-up. \\(\operatorname{RANDOM-BRACKET}\\) pairs teams randomly within the same bracket. We also plot \\(\operatorname{RANDOM}\\) pairing, which just pairs teams randomly irrespective of brackets, as a benchmark.
 
 Here's another graph, this time with more rounds.
 
 ![image](/assets/svg/rank_dist_v_rounds_50.svg){: .svg-full}
 
-Interestingly, \\(\operatorname{RANDOM}\\) converges faster than any other method over a large number of rounds. This is probably because teams get "stuck" within a few brackets, and then are unable to leave that local optimum, and thus unable to settle into the optimum ranking. Of course, a 50 round tournament is just fantasy. More important is the fact that \\(\operatorname{FOLD}\\) converges fastest in the first 5 rounds, followed by \\(\operatorname{MID-SLIDE}\\).
+Interestingly, \\(\operatorname{RANDOM}\\) converges faster than any other method over a large number of rounds. This is probably because teams get "stuck" within a few brackets, and then are unable to leave that local optimum, and thus unable to settle into the optimum ranking. Of course, a 50 round tournament is just fantasy. More important is the fact that \\(\operatorname{FOLD}\\) converges fastest in the first 5 rounds, followed by \\(\operatorname{MID-SLIDE}\\). Perhaps there is some other pairing method that will converge even faster than \\(\operatorname{FOLD}\\). I tried avoiding local optima in \\(\operatorname{FOLD}\\) by randomizing pairings every n<sup>th</sup> round, but it didn't work.
 
-So what does this mean for tournament policy? I'm not sure yet, but some things that debaters have probably felt intuitively seem to be supported by this data -- strong teams are rewarded and likely to break in \\(\operatorname{FOLD}\\), while it is easier for teams to upset the rankings with strong one-off performances in \\(\operatorname{MID-SLIDE}\\). Which system you prefer is up for debate, but what impact it will have on your tournament is a little less so.
+So what does this mean for tournament policy? Some things that debaters have probably felt intuitively seem to be supported by this data -- strong teams are rewarded and likely to break in \\(\operatorname{FOLD}\\), while it is easier for teams to upset the rankings with strong one-off performances in \\(\operatorname{MID-SLIDE}\\). Which system you prefer is up for debate, but what impact it will have on your tournament is a little less so.
 
 <script type="text/javascript"
 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
