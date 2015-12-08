@@ -3,7 +3,7 @@ layout: post
 title: An analysis of PD team pairing algorithms
 ---
 
-This is a short analysis of a few in-bracket pairing algorithms used in PDs. I've assumptions liberally to simplify the process. Some familiarity with basic statistics and PDs is required.
+This is a short analysis of a few in-bracket pairing algorithms used in PDs. I've made assumptions liberally to simplify the process. Some familiarity with basic statistics and PDs is required.
 
 Let the set of teams be \\(T\\). We assume these teams have a "true" or "mean" skill represented by skill vector \\(S\\), where each team \\(T_i\\) is assigned a skill \\(S_i\\) sampled from \\(\mathcal{N}(0,1)\\). A team's performance is modeled as a random variable \\(P_i \sim \mathcal{N}(S_i,0.5)\\). \\(T_i\\) beats \\(T_j\\) if \\(P_i > P_j\\), and the margin of victory is \\(P_i - P_j\\).
 
