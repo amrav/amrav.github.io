@@ -29,7 +29,7 @@ Here's another graph, this time using cumulative scores for tiebreaks.
 
 ![image](/assets/svg/spearman_7_speaks.svg){: .svg-full}
 
-So what does this mean for tournament policy? It's probably too early to draw any firm conclusions, but \\(\operatorname{POWER-BRACKET}\\) seems to be poorly correlated compared to other methods of pairing. \\(\operatorname{FOLD}\\) and \\(\operatorname{MID-SLIDE}\\) might be less different than we think (although the difference between them increases when we increase the standard deviation of a team's performance from its mean).
+So what does this mean for tournament policy? It's probably too early to draw any firm conclusions, but \\(\operatorname{POWER-BRACKET}\\) seems to be poorly correlated compared to other methods of pairing. \\(\operatorname{FOLD}\\) and \\(\operatorname{MID-SLIDE}\\) might be less different than we think (although the difference between them increases when we increase the standard deviation of a team's performance from its mean). It seems much better to use cumulative speaks rather than MOVs to order within a bracket, although that's expected, since our "ideal" ranking uses cumulative speaks.
 
 If you have any suggestions on how to improve this analysis, do let me know.
 
