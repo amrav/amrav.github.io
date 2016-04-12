@@ -178,7 +178,7 @@ The professors exchange glances.*
 **Profs:** So, you haven’t studied OS either. You’d better start studying. You’re probably going to be standing here in front of us again, soon. You can leave.
 
 
-Epilogue:
+### Epilogue:
 
 *I sat in my room, dazed. Everything had happened so fast. Had I really not answered a single question correctly? Surely they had played a cruel joke? I whipped out my phone and Googled things. TCP. Heap property. Pair programming. Concurrency vs parallelism. It didn’t seem like I’d gotten things that wrong. Heck, the heap property was even outright correct. I did forget the SYN-ACK and ACK parts of the TCP handshake, and it seemed like computer scientists disagreed on whether parallelism really implies concurrency. An abstract notion of parallelism could probably be defined without concurrency, so parallelism is not the same thing as concurrency.*
 
