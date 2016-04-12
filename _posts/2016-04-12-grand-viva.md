@@ -66,7 +66,7 @@ The professors exchange glances.*
 
 **Profs:** Okay, what happens after the SYN and ACK packets? Does the sender begin transmitting data?\\
 **Me:** Yes, the sender begins transmitting data.\\
-**Profs:** You don’t know anything about TCP. Let’s move on to a different topic.\\
+**Profs:** You don’t know anything about TCP. Let’s move on to a different topic.
 
 *I’m glad they see the situation so clearly. I begin to warm up to these profs.*
 
