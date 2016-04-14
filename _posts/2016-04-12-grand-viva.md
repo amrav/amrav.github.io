@@ -165,7 +165,7 @@ The professors exchange glances.*
 
 **Me:** Sir, concurrency is about the time-independence of events. In other words, two events are concurrent if they cannot be ordered with respect to each other. Parallelism is about the time-simultaneity of events. In other words, two events are parallel if they are happening at the same physical time. Concurrency is a prerequisite for parallelism, but concurrency need not imply parallelism.
 
-*The profs look stunned. The exchange incredulous looks, then slowly, deeply, begin shaking their heads.*
+*The profs look stunned. They exchange incredulous looks, then slowly, deeply, begin shaking their heads.*
 
 **Profs:** Do you actually know anything about concurrency? Give us an example of something that is concurrent but not parallel.
 
