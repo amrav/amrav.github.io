@@ -42,4 +42,4 @@ As you can see, I grew progressively more excited about the tasks I was able to 
 
 ---
 
-[^0] Not just by co-incidence, [Las Vegas algorithms](https://en.wikipedia.org/wiki/Las_Vegas_algorithm) are a class of randomized algorithms that always generate correct results, but gamble with the running time.
+[^0]: Not just by co-incidence, [Las Vegas algorithms](https://en.wikipedia.org/wiki/Las_Vegas_algorithm) are a class of randomized algorithms that always generate correct results, but gamble with the running time.
