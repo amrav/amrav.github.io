@@ -1,4 +1,4 @@
-name: Amrav's Blog
+name: amrav.net
 markdown: kramdown
 kramdown:
   input: GFM
