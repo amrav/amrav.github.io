@@ -113,6 +113,12 @@ ul#posts li a:hover {
     margin-right: 20%;
 }
 
+#post h2 {
+    font-family: Georgia, sans-serif;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
 #content {
     font-size: 1.23em;
     text-align: justify;
@@ -124,14 +130,30 @@ ul#posts li a:hover {
     margin-bottom: 2em;
 }
 
+#content ol p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#content blockquote p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+    font-color: rgb(60,60,60);
+    margin-left: 0.3em;
+    line-height: 1.5em;
+}
+
+#content blockquote {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-left-color: rgb(75,75,75);
+    border-left-width: 1px;
+}
+
 #post .meta {
     font-size: small;
     color: gray;
-}
-
-blockquote {
-    border-left-color: rgb(75,75,75);
-    border-left-width: 0.15em;
 }
 
 blockquote p {
