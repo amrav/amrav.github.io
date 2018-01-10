@@ -109,8 +109,8 @@ ul#posts li a:hover {
 
 #post {
     margin-bottom: 15em;
-    margin-left: 20%;
-    margin-right: 20%;
+    max-width: 38em;
+    margin: 0 auto;
 }
 
 #post h2 {
@@ -141,27 +141,23 @@ ul#posts li a:hover {
 }
 
 #content blockquote {
-    font-style: italic;
-    font-color: rgb(60,60,60);
     margin-left: 0.3em;
-    line-height: 1.5em;
-}
-
-#content blockquote {
     padding-top: 0.1em;
     padding-bottom: 0.1em;
     border-left-color: rgb(75,75,75);
     border-left-width: 1px;
 }
 
+#content blockquote p, #content blockquote ol {
+    font-style: italic;
+    font-color: rgb(60,60,60);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
 #post .meta {
     font-size: small;
     color: gray;
-}
-
-blockquote p {
-    font-size: 1em;
-    color: rgb(75,75,75);
 }
 
 #photos {
