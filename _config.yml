@@ -6,5 +6,5 @@ highlighter: rouge
 exclude: [scripts 404.html]
 permalink: pretty
 url: http://www.amrav.net
-gems:
+plugins:
   - jekyll-feed
