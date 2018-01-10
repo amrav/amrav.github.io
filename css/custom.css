@@ -138,6 +138,9 @@ ul#posts li a:hover {
 #content blockquote p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+#content blockquote {
     font-style: italic;
     font-color: rgb(60,60,60);
     margin-left: 0.3em;
